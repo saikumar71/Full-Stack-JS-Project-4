@@ -1,0 +1,97 @@
+body {
+  font-family: "Poppins", serif;
+  height: 100vh;
+}
+
+/* --- Navbar-Section ---*/
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.brand-logo {
+  width: 100%;
+  height: 5px;
+  margin-top: 1.5rem;
+}
+
+.grow-list {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list-item {
+  margin-right: 2rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.list-item:nth-child(1) {
+  font-weight: bold;
+}
+
+.button-group {
+  display: flex;
+  align-items: flex-end;
+}
+.nav-button {
+  display: flex;
+  margin-right: 2rem;
+  background-color: #5a20cb;
+  cursor: pointer;
+}
+
+/*******************/
+/*** BANNER-SECTION **/
+
+/*********************/
+
+.banner-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+  margin: auto 3rem;
+}
+
+.banner-container div img {
+  width: 100%;
+}
+
+.heading-text {
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: rgb(63, 58, 92);
+  line-height: 1;
+  margin-top: 10rem;
+}
+
+span {
+  color: rgb(137, 97, 218);
+}
+
+.description {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  color: rgb(134, 129, 169);
+}
+
+.nav-button {
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 7px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #5a20cb;
+}
